@@ -14,4 +14,6 @@ RUN wget https://dl.bintray.com/jfrog/jfrog-cli-go/$VERSION/jfrog-cli-linux-386/
 
 RUN chmod +x jfrog && mv jfrog /usr/bin/
 
+ENV M2_HOME=/usr/share/maven
+
 COPY pipe /usr/bin/
