@@ -50,13 +50,13 @@ cat <<EOF >./settings.xml
 					</snapshots>
 					<id>central</id>
 					<name>libs-release</name>
-					<url>${ARTIFACTORY_URL}/${MAVEN_SNAPSHOT_REPO}</url>
+					<url>${ARTIFACTORY_URL}/${MAVEN_RELEASE_REPO}</url>
 				</pluginRepository>
 				<pluginRepository>
 					<snapshots/>
 					<id>snapshots</id>
 					<name>libs-snapshot</name>
-					<url>${ARTIFACTORY_URL}/${MAVEN_RELEASE_REPO}</url>
+					<url>${ARTIFACTORY_URL}/${MAVEN_SNAPSHOT_REPO}</url>
 				</pluginRepository>
 			</pluginRepositories>			
 		</profile>		
